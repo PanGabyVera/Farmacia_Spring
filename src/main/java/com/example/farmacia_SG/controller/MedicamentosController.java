@@ -340,7 +340,7 @@ return new ResponseEntity<>("Deben ser numeros mayor a 0", HttpStatus.BAD_REQUES
                     return new ResponseEntity<>("Valor Actualizado correctamente "+medicamentosservice.crear(m), HttpStatus.OK);
                 } else {
 
-                    return new ResponseEntity<>("Error en el llenado de los datos", HttpStatus.BAD_REQUEST);
+                    return new ResponseEntity<>("Error en el llenado de datos", HttpStatus.BAD_REQUEST);
 
                 }
         }
